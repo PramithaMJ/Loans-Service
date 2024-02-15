@@ -21,7 +21,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author Eazy Bytes
+ * @author PMJ
  */
 
 @Tag(
@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.*;
         description = "CRUD REST APIs in PMJ to CREATE, UPDATE, FETCH AND DELETE loan details"
 )
 @RestController
-@RequestMapping(path = "/api", produces = {MediaType.APPLICATION_JSON_VALUE})
+@RequestMapping(path = "/api/v1", produces = {MediaType.APPLICATION_JSON_VALUE})
 @AllArgsConstructor
 @Validated
 public class LoansController {
